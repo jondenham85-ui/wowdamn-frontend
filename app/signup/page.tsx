@@ -1,4 +1,4 @@
-// frontend/app/signup/page.tsx
+// app/signup/page.tsx
 
 export default function OwnerSignUp() {
   return (
@@ -7,7 +7,7 @@ export default function OwnerSignUp() {
       <div className="w-full max-w-md bg-black border border-[#00e6e6] rounded-2xl p-8 shadow-[0_0_35px_#00e6e6]">
 
         <h1 className="text-4xl font-extrabold text-center text-[#00e6e6] drop-shadow-[0_0_15px_#00ffff] mb-8">
-          Create Owner Account
+          Create MADAI Owner Account
         </h1>
 
         {/* Name */}
@@ -63,7 +63,6 @@ export default function OwnerSignUp() {
           Create Account
         </button>
 
-        {/* Back to Login */}
         <p className="text-center text-[#00ffff] opacity-60 mt-6 text-sm">
           Already have an account?{" "}
           <a href="/login" className="text-[#00e6e6] hover:text-[#00ffff] font-bold">
@@ -75,3 +74,4 @@ export default function OwnerSignUp() {
     </div>
   );
 }
+
