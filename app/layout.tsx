@@ -1,19 +1,27 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import "./globals.css";
 
-export const metadata: Metadata = {
-  title: 'WOWDamn — Holographic Commerce OS',
-  description: 'The most powerful commerce operating system ever built.',
-}
+export const metadata = {
+  title: "MADAI",
+  description: "Holographic AI COO",
+};
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className="
+          bg-black
+          text-white
+          antialiased
+        "
+        style={{
+          // MADAI Theme
+          backgroundColor: "#000000",
+          color: "#ffffff",
+        }}
+      >
+        {children}
+      </body>
     </html>
-  )
+  );
 }
