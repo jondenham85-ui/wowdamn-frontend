@@ -1,4 +1,4 @@
-// frontend/app/login/page.tsx
+// app/login/page.tsx
 
 export default function OwnerLogin() {
   return (
@@ -6,9 +6,8 @@ export default function OwnerLogin() {
 
       <div className="w-full max-w-md bg-black border border-[#00e6e6] rounded-2xl p-8 shadow-[0_0_35px_#00e6e6]">
 
-        {/* MADAI Logo */}
         <h1 className="text-4xl font-extrabold text-center text-[#00e6e6] drop-shadow-[0_0_15px_#00ffff] mb-8">
-          MADAI Owner Access
+          MADAI Owner Login
         </h1>
 
         {/* Email */}
@@ -59,13 +58,12 @@ export default function OwnerLogin() {
 
         </div>
 
-        {/* Footer */}
         <p className="text-center text-[#00ffff] opacity-60 mt-6 text-sm">
-          Authorized owners only.  
-          MADAI Control Center access is restricted.
+          Authorized owners only.
         </p>
 
       </div>
     </div>
   );
 }
+
